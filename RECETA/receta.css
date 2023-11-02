@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: titulos;
-    src: url();
+    src: url(./fonts/Rukishy\ Triall.ttf);
 }
 
 @font-face {
     font-family: texto;
-    src: url();
+    src: url(./fonts/October\ Night.ttf);
 }
 
 * {box-sizing: border-box;}  /* el width incluye el padding 
@@ -38,35 +38,42 @@ h1 {
     padding:10px 0;
     /* sombra de caja */
     box-shadow: -15px -15px 15px gray;
+    font-family: titulos;
 }
 
-blockquote {border-left:4px solid rgb(152, 130, 172);
-            border-top:3px solid rgb(152, 130, 172);
+blockquote {border-left:4px solid #8b0000;
+            border-top:3px solid #8b0000;
             font-style: italic;  /* poner en cursiva */
             font-weight: bold;   /* poner en negrita */
-            background-color: gainsboro;
+            background-color: #f9e4b7;
             padding:10px;        /* margin y padding pequeños pueden estar en pixeles */
         }
 #foto {width: 50%;  /* a todo el ancho de donde estás colocada, en este caso, el wrapper */
-        margin:auto
-        display:block   /*  para que se comporte como un bloque */
+        display:block;  /*  para que se comporte como un bloque */
     } 
 
 dt {font-weight:bold;
-    color:rgb(70, 17, 126);
-    font-size:1.2em;}
+    color:#8b0000;
+    font-size:1.4em;
+    font-family: texto;}
 
 h2 {font-weight:bold;
     background-color: #7d4c2f;
     color:#FAE7B5;
     padding:5px 5px;
-    margin-right: 60%;}
+    margin-right: 60%;
+    font-family:titulos;}
 
-dl{background-color: gainsboro;
-    padding:10px 20px 10px 20px;
-    margin-right: 70%;
-    font-size: small;}
+dl{padding-left: 20px;
+    margin-right: 10%;
+    font-size: small;
+    font-family: texto;}
 
-li{font-weight: bold;}
+li{font-weight: bold;
+    font-family: texto;}
 
-p {margin-top: 10%;}
+p {margin-top: 10%;
+    font-size: smaller;}
+
+dd{font-size: medium;}
+

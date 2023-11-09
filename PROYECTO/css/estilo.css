@@ -15,6 +15,12 @@
     src: url(../font/ethnocentric\ rg.otf);
 }
 
+@font-face {
+    font-family: PCTECH;
+    src: url(../font/pricedown\ bl.otf);
+}    
+
+
 /**** general layout****/
 
 body {background-color: black;
@@ -34,19 +40,22 @@ nav {font-family: titulo;
 
 /***** hero section **********/
 
-#hero {background-image: url(../img/wave-haikei.svg);
-        height: 80vh; /*Forzar el alto de la hero para ver la foto*/
+#hero {background-image: url(../img/tai-bui-Q-xGz9NOVOE-unsplash.jpg);
+        height: 80vh;/*Forzar el alto de la hero para ver la foto*/
+        width: 100%; 
+        display: block;
         background-size: cover; /*Estira la foto para encajar*/
         background-position:66.66% ; /**donde esta el punto de interés**/
-        font-family: runas;
+        font-family: titulo;
         color: rgb(255, 255, 255);
         font-size:1.5em ;
         font-family: titulo;
         border-top: 3px solid white;
-        border-bottom: 5px solid white;
-        text-align: center;
+        text-align: left;
         padding-top: 10%;
-    } 
+        padding-left: 5%;
+        bottom:0;
+        } 
 
 /********** responsividad *********/
 
@@ -54,3 +63,12 @@ nav {font-family: titulo;
     #wrapper {width: 95%;}
 }
 
+#Parrafo{ font-family:PCTECH;
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    padding: 10px;
+    border: solid 10px white;
+    font-size: 60px;
+    padding-right: 20px;
+}

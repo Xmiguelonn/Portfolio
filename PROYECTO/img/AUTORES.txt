@@ -1,2 +1,5 @@
 HEROSECT -> Fredrick Tendong
 Vídeo de Silviu Din: https://www.pexels.com/es-es/video/la-placa-principal-de-una-computadora-3108007/
+flaticon-pc1:
+<a href="https://www.flaticon.es/iconos-gratis/pc-para-juegos" title="pc para juegos iconos">Pc para juegos iconos creados por manshagraphics - Flaticon</a>
+

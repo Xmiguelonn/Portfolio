@@ -1,0 +1,56 @@
+/*******************************/
+
+
+
+/*******************************/
+
+/***************************/
+@font-face {
+    font-family: texto;
+    src: url(../font/ShareTech-Regular.ttf);
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(../font/ethnocentric\ rg.otf);
+}
+
+/**** general layout****/
+
+body {background-color: black;
+        color: white;
+        font-family: texto;
+        font-size: 2em;}
+
+#wrapper {width:80%;
+        margin: auto;
+        background-color:#8a2be2;}
+
+/******************************/
+
+nav {font-family: titulo;
+        text-align: center;
+    }
+
+/***** hero section **********/
+
+#hero {background-image: url(../img/wave-haikei.svg);
+        height: 80vh; /*Forzar el alto de la hero para ver la foto*/
+        background-size: cover; /*Estira la foto para encajar*/
+        background-position:66.66% ; /**donde esta el punto de interés**/
+        font-family: runas;
+        color: rgb(255, 255, 255);
+        font-size:1.5em ;
+        font-family: titulo;
+        border-top: 3px solid white;
+        border-bottom: 5px solid white;
+        text-align: center;
+        padding-top: 10%;
+    } 
+
+/********** responsividad *********/
+
+@media only screen and (width<650px){
+    #wrapper {width: 95%;}
+}
+

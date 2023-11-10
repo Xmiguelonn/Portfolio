@@ -32,7 +32,11 @@ body {background-color: black;
         margin: auto;
         background-color:#8a2be2;}
 
-/******************************/
+.titulo{ font-family: titulo;
+        text-align: center;
+}
+
+/***************barra de navegación***************/
 
 nav {font-family: titulo;
         text-align: center;
@@ -57,6 +61,28 @@ nav {font-family: titulo;
         bottom:0;
         } 
 
+/**************INTRO SECTION**************/
+
+#intro{padding: 5%;
+        border-bottom: 2px solid white;
+}
+
+#video-placa-base{width: 100%; /*Para que la foto no se salga, indicar el ancho siempre*/
+        float: left; /*FOTO pegada a la izquierda*/
+        margin:20px 15px 10px 0 ; /*Para que corra aire alrededor de la foto*/
+}
+
+/*****************section gallery****************/
+#gallery{padding: 5% 0 ;
+
+}
+
+
+
+
+
+
+
 /********** responsividad *********/
 
 @media only screen and (width<650px){
@@ -68,7 +94,9 @@ nav {font-family: titulo;
     bottom: 0%;
     left: 25%;
     padding: 10px;
-    border: solid 10px white;
-    font-size: 60px;
+    border: solid 7px white;
+    font-size: 50px;
     padding-right: 20px;
+    box-shadow: inset 5px 5px 10px 10px #8a2be2;
 }
+

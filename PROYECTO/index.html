@@ -3,13 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Norse myths - Home</title>
+    <title>PC TECH - Home</title>
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id="wrapper">
-        <nav>HOME * INTRO * GALLERY  </nav>
+        <nav>
+            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        
         <section id= "hero">
             <!--aqui va la hero -->
             <p id="Parrafo">PC<BR>TECH</BR></p>
@@ -18,7 +31,7 @@
             <div class="titulo">
                 BEYOND LEYENDS...</div>
 
-                <video id="video-placa-base" src="./img/video-placa-base.mp4" autoplay></video>
+                <video id="video-placa-base" src="./img/video-placa-base.mp4" loop autoplay muted></video>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem possimus asperiores, illo laborum corporis itaque ullam blanditiis et, totam tempora iste doloremque nesciunt debitis hic? Voluptate tenetur eveniet vel?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat voluptas animi voluptatum fuga minima consequatur eligendi a dignissimos facilis. Cupiditate quidem ab distinctio ad dolorem mollitia corporis veniam iure!</p>

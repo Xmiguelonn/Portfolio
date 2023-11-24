@@ -1,8 +1,8 @@
-/*******************************/
-
-
-
-/*******************************/
+/**********************************************/
+/*      AUTOR: Miguel Angel Postigo Bernal ****/
+/***          version: 1.0                  ***/
+/* coment: proyecto de página web fin de curso*/
+/**********************************************/
 
 /***************************/
 @font-face {
@@ -37,6 +37,9 @@ body {background-color: black;
 }
 
 /***************barra de navegación***************/
+
+
+
 
 nav {font-family: titulo;
         text-align: center;
@@ -74,6 +77,10 @@ nav {font-family: titulo;
 .topnav .icon {
         display: none;
 }
+
+
+
+
 /***** hero section **********/
 
 #hero {background-image: url(../img/tai-bui-Q-xGz9NOVOE-unsplash.jpg);
@@ -93,6 +100,20 @@ nav {font-family: titulo;
         bottom:0;
         } 
 
+#Parrafo{ font-family:PCTECH;
+        position: absolute;
+        bottom: 0%;
+        left: 25%;
+        padding: 10px;
+        border: solid 7px white;
+        font-size: 50px;
+        padding-right: 20px;
+        box-shadow: inset 5px 5px 10px 10px #8a2be2;
+        }
+
+
+
+
 /**************INTRO SECTION**************/
 
 #intro{padding: 5%;
@@ -104,33 +125,80 @@ nav {font-family: titulo;
         margin:20px 15px 10px 0 ; /*Para que corra aire alrededor de la foto*/
 }
 
+
+/****************SECTION EJEMPLO-GRID-2**********+*/
+
+.grid-2 {display: grid; /* el contenedor va a sufrir ua división en columna*/
+        grid-template-columns: 50% 50%;
+} 
+
+.col-2 {padding: 4%;}
+
+#ejemplo-grid-2 img {width: 100%;}
+
+
 /*****************section gallery****************/
 #gallery{padding: 5% 0 ;
 
 }
+.grid-4 {display: grid;
+        grid-template-columns: 25% 25% 25% 25%;}
+#gallery img {width: 100%}
+
+.col-4 {padding: 8%;
+        border: 1px solid burlywood}
+
+#boton1 {margin-bottom: 5%;
+        background-color: #8a2be2;
+        border: 2px solid black;
+        color: black;
+        padding: 10px;
+        font-weight: bold;
+        }
+        
+#boton1:hover{background-color: #690dbe;
+        border: 2px solid whitesmoke;
+        color: white;
+        padding: 10px;
+        }
 
 
+#boton2 {margin-bottom: 5%;
+        background-color: #8a2be2;
+        border: 2px solid black;
+        color: black;
+        padding: 10px;
+        font-weight: bold;
+}
 
+#boton2:hover{background-color: #690dbe;
+                border: 2px solid whitesmoke;
+                color: white;
+                padding: 10px;
+}
 
-
-
+#gallery h3 {font-family: titulo;
+                font-size: 20px;}
 
 /********** responsividad *********/
 
-@media only screen and (width<650px){
-        #wrapper {width: 95%;}
+@media only screen and (width<900px){
+        .grid-4{grid-template-columns:50% 50% ;}
+
 }
 
-#Parrafo{ font-family:PCTECH;
-        position: absolute;
-        bottom: 0%;
-        left: 25%;
-        padding: 10px;
-        border: solid 7px white;
-        font-size: 50px;
-        padding-right: 20px;
-        box-shadow: inset 5px 5px 10px 10px #8a2be2;
+
+
+@media only screen and (width<650px){
+        #wrapper {width: 95%;}
+        #drakkar {width:100%;}
+        .grid-2{grid-template-columns: 100%;}
+        .grid-4{grid-template-columns: 100%;}
 }
+
+
+
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {

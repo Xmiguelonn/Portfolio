@@ -36,6 +36,11 @@ body {background-color: black;
         text-align: center;
 }
 
+
+.texto{ font-family: texto;
+
+}
+
 /***************barra de navegación***************/
 
 
@@ -136,6 +141,63 @@ nav {font-family: titulo;
 
 #ejemplo-grid-2 img {width: 100%;}
 
+/********************SECTION MITOS***************************/
+
+ /* Style the buttons that are used to open and close the accordion panel */
+ .accordion {
+        background-color: black;
+        color: white;
+        font-size: 0.6em;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        transition: 0.4s;
+        font-family: texto;
+      }
+      
+      /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+      .active, .accordion:hover {
+        background-color: white;
+        color: black;
+        font-size: 0.8em;
+        font-weight: bold;
+        font-family: texto;
+      }
+      
+      /* Style the accordion panel. Note: hidden by default */
+      .panel {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+      } 
+
+      .accordion:after {
+        content: '\02795'; /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+      }
+      
+      .active:after {
+        content: "\2796"; /* Unicode character for "minus" sign (-) */
+      }
+
+
+/********+SECCION DE FOTOS********************/
+
+#fotos img{width:100%;}
+#fotos h3{font-family: texto;
+        font-size: 20px;
+}
+
+
+
 
 /*****************section gallery****************/
 #gallery{padding: 5% 0 ;
@@ -154,12 +216,15 @@ nav {font-family: titulo;
         color: black;
         padding: 10px;
         font-weight: bold;
+        transition: 0.4s;
         }
         
 #boton1:hover{background-color: #690dbe;
         border: 2px solid whitesmoke;
         color: white;
         padding: 10px;
+        font-size: 0.5em;
+        transition: 0.4s;
         }
 
 
@@ -169,12 +234,15 @@ nav {font-family: titulo;
         color: black;
         padding: 10px;
         font-weight: bold;
+        transition: 0.4s;
 }
 
 #boton2:hover{background-color: #690dbe;
                 border: 2px solid whitesmoke;
                 color: white;
                 padding: 10px;
+                font-size: 0.5em;
+                transition: 0.4s;
 }
 
 #gallery h3 {font-family: titulo;

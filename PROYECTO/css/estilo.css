@@ -369,7 +369,7 @@ display: block;
 
 
 /*****************section gallery****************/
-#gallery{padding: 5% 0 ;
+#gallery{padding: 5% ;
 
 }
 .grid-4 {display: grid;
@@ -465,3 +465,4 @@ text-align: left;
 @media screen and (max-width: 600px) {
         .container {position: relative;}
 }
+

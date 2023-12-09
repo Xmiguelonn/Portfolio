@@ -1,6 +1,6 @@
 /**********************************************/
 /*      AUTOR: Miguel Angel Postigo Bernal ****/
-/***          version: 1.1                  ***/
+/***          version: 1.5                  ***/
 /* coment: proyecto de página web fin de curso*/
 /**********************************************/
 
@@ -395,9 +395,10 @@ footer {
 
 .social-buttons {
         display: flex;
-        justify-content: center;
+        justify-content:center;
         gap: 5px;
         margin-top: 10px;
+        font-size: medium;
 }
 
 .social-buttons a {

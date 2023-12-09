@@ -159,6 +159,45 @@ nav {   position: sticky;
 
 #ejemplo-grid-2 img {width: 100%;}
 
+
+#boton1 {margin-bottom: 5%;
+        background-color: #8a2be2;
+        border: 2px solid black;
+        color: black;
+        padding: 10px;
+        font-weight: bold;
+        transition: 0.4s;
+        }
+        
+#boton1:hover{background-color: #690dbe;
+        border: 2px solid whitesmoke;
+        color: white;
+        padding: 10px;
+        font-size: 0.5em;
+        transition: 0.4s;
+        }
+
+
+#boton2 {margin-bottom: 5%;
+        background-color: #8a2be2;
+        border: 2px solid black;
+        color: black;
+        padding: 10px;
+        font-weight: bold;
+        transition: 0.4s;
+}
+
+#boton2:hover{background-color: #690dbe;
+                border: 2px solid whitesmoke;
+                color: white;
+                padding: 10px;
+                font-size: 0.5em;
+                transition: 0.4s;
+}
+
+
+
+
 /********************SECTION PC PRINCIPALES***************************/
 
 *,

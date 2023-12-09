@@ -19,10 +19,11 @@
             <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
             <div class="topnav" id="myTopnav">
                 <a href="#hero" class="active">Home</a>
-                <a href="#intro">Intro</a>
-                <a href="#gallery">gallery</a>
-                <a href="#fotos">Fotos</a>
-                <a href="#localizacion">Localización</a>
+                <a href="#intro">About us</a>
+                <a href="#Servicios">Our services</a>
+                <a href="#PCs">PC</a>
+                <a href="#fotos">Productos</a>
+                <a href="#gallery">Gallery</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -33,34 +34,57 @@
             <!--aqui va la hero -->
             <p id="Parrafo">PC<BR>TECH</BR></p>
         </section>
-        <section id="intro">
-            <div class="titulo">
-                BEYOND LEYENDS...</div>
 
+        
+            <div class="titulo">
+                About US</div>
+        <section id="intro">
                 <video id="video-placa-base" src="./img/video-placa-base.mp4" loop autoplay muted></video>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem possimus asperiores, illo laborum corporis itaque ullam blanditiis et, totam tempora iste doloremque nesciunt debitis hic? Voluptate tenetur eveniet vel?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat voluptas animi voluptatum fuga minima consequatur eligendi a dignissimos facilis. Cupiditate quidem ab distinctio ad dolorem mollitia corporis veniam iure!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, sint. Inventore distinctio ullam illum, quae cumque blanditiis repudiandae dolores dignissimos numquam sequi hic, asperiores, unde iure reprehenderit id ad nulla.</p>
+                <h4>Lo primero que quiero decir es que esta página web está basada en el poyecto de Empresa e Iniciativa Emprendedora del curso 2023/2024</h4>
+                <p class="texto">We are a newly created computer store that sells both in person and online</p>
+                <p class="texto">We want to be one of the largest IT companies in Spain over time and if possible go further.</p>
+
+                <div class="caja"><h2 class="h2">History</h2></div>
+                
+                <p class="texto">The three of us had different business ideas, such as a gym, a bank... But none of us were convinced by any of those ideas, the only one we agreed on was a computer store. </p>
+                  <p class="texto">However, we also came to the conclusion that a computer store was something simple and was going to fall short.</p>
+
+                  <p class="texto"> We all came up with the idea of implementing a website to sell the products and we also came up with the idea of adding a section where unemployed technicians can register to support them and we can get remuneration from them.
+                  </p>
+
+                  <div class="caja"><h2 class="h2">Members</h2></div>
+
+                  <p class="texto"> <strong> The members of our business project are:</strong></p>
+                  <h4>Dana Espinosa</h4>
+                  <p class="texto"> Public facing and web designer</p>
+                  <h4>Samuel Díaz</h4>
+                  <p class="texto"> Technical service and Advertising</p>
+                  <h4>Jose Alcaide</h4>
+                  <p class="texto"> Account Manager and Warehouse Distributor</p>
+                  <h4>Miguel Angel Postigo</h4>
+                  <p class="texto"> Creation and maintenance of the website</p>
+
         </section>
 
         <!-- SECCIÓN DE EJEMPLO DE GRID A 2 COLUMNAS : 1 CONTENEDOR GRID-2 Y 2 COLUMNAS DENTRO COL-2 -->
 
         <section id="ejemplo-grid-2">
 
-            <div class="titulo">GRID DE 2</div>
+            <div id="Servicios" class="titulo">Our Services</div>
             <div class="grid-2">
                 <div class="col-2">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo beatae eos ut fugit maiores error consequuntur eius ex excepturi. Molestias corporis placeat voluptatibus ratione harum adipisci, iusto unde officia aut</p>
-                <button id="boton1">LEER MÁS</button>
-                <img id="#ejemplo-grid-2" src="https://fastly.picsum.photos/id/1054/600/400.jpg?hmac=vuZLkYiTfF42ngKp6ia-QES2afxkMDxOTBACs0fmnjU" alt="">
+                  <h3>Maintenance of computer equipment</h3>
+                <p class="texto">We maintain computer equipment including tablets, desktop computers or laptops, consoles, TV... And we also assemble desktop computers</p>
+                <img id="#ejemplo-grid-2" src="./img/mantenimiento_pc.jpg" alt="">
 
 
                 </div>
                 <div class="col-2">
-                <img id="#ejemplo-grid-2" src="https://fastly.picsum.photos/id/1054/600/400.jpg?hmac=vuZLkYiTfF42ngKp6ia-QES2afxkMDxOTBACs0fmnjU" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo beatae eos ut fugit maiores error consequuntur eius ex excepturi. Molestias corporis placeat voluptatibus ratione harum adipisci, iusto unde officia aut</p>
-                <button id="boton2">LEER MÁS</button>
+                <img id="#ejemplo-grid-2" src="./img/pc_montado.jpg" alt="">
+                <h3>PC sales</h3>
+                <p class="texto">We sell computers assembled by our technician with the parts that the client chooses or with the offer of pre-assembled computers made by our experts
+                </p>
                 </div>
             </div>
 
@@ -68,128 +92,171 @@
 
         <!-- USO DE ACCORDION PARA PRESENTAR MUCHA INFORMACIÓN EN UN FORMATO DESPLEGABLE: PREGUNTAS Y RESPUESTAS, ESTRUCTURADO EN VARIOS CAPÍTULOS, ETC...-->
 
-
+        <div id="PCs" class="titulo">Nuestros Pcs premontados</div>
         <section id="PC_PRINCIPALES">
             <div class="container">
               <div class="accordion">
                 <div class="accordion-item" id="question1">
                   <a class="accordion-link" href="#question1">
                     <div class="flex">
-                      <h3>PC BRONZE</h3>
+                      <h3>PC BRONZE   450€</h3>
                       
                     </div>
                     <i class="icon ion-md-arrow-forward"></i>
                     <i class="icon ion-md-arrow-down"></i>
                   </a>
                   <div class="answer">
-                    <p> We believe in the greater good, we strive to do something for people, we aim to make their lives easier and more enjoyable, we love businesses that keep this</p>
+                    <p><strong>Caja:</strong>Nfortec Lynx Torre Negra</p>
+                    <p> <strong> Fuente de alimentación:</strong> 650W 80+ </p>
+                    <p><strong>Procesador:</strong> AMD RYZEN 5 4600G 4.20 GHz </p>
+                    <p> <strong>Placa base:</strong>  A520M / B550 / B450 O Similar (Según disponibilidad)</p>
+                    <p> <strong>Disco Duro:</strong> 480GB SSD</p>
+                    <p> <strong>Memoria RAM:</strong> 8 GB DDR4 3200Mhz(o superior)</p>
+                    <p> <strong>Sistema Operativo:</strong> Windows 10 PRO</p>
                   </div>
                   <hr>
               </div>
                 <div class="accordion-item" id="question2">
                   <a class="accordion-link" href="#question2">
                     <div class="flex">
-                      <h3>UX/UI DESIGN</h3>
-                      <ul>
-                        <li>#Figma</li>
-                        <li>#Sketch</li>
-                        <li>#Adobe</li>
-                        <li>#Invision</li>
-                        <li>#Protopie</li>
-                      </ul>
+                      <h3>PC SILVER 800€</h3>
                     </div>
                     <i class="icon ion-md-arrow-forward"></i>
                     <i class="icon ion-md-arrow-down"></i>
                   </a>
                   <div class="answer">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                    <p><strong>Caja:</strong> Cougar Airface RGB Mid Tower Cristal Templado USB 3.0 Negra</p>
+                    <p> <strong> Fuente de alimentación:</strong>  550W 80+ Bronze </p>
+                    <p><strong>Procesador:</strong> Intel Core I5-12400F 2,5Ghz 6 Cores</p>
+                    <p> <strong>Placa base:</strong> Base MSI PRO H610M-E o similar - Según disponibilidad</p>
+                    <p> <strong>Disco Duro:</strong>Kingston NV2 1TB SSD PCIe 4.0 NVMe Gen 4x4</p>
+                    <p> <strong>Memoria RAM:</strong>RAM 32GB RAM DDR4 3200 2X16 CL16</p>
+                    <p><strong>Tarjeta gráfica</strong> Nvidia GeForce GTX 1650 4GB GDDR6</p>
+                    <p> <strong>Sistema Operativo:</strong> Windows 10 PRO</p>
                   </div>
                   <hr>
               </div>
                 <div class="accordion-item" id="question3">
                   <a class="accordion-link" href="#question3">
                     <div class="flex">
-                      <h3>FRONTEND DEVELOPMENT</h3>
-                      <ul>
-                        <li>#Figma</li>
-                        <li>#Sketch</li>
-                        <li>#Adobe</li>
-                        <li>#Invision</li>
-                        <li>#Protopie</li>
-                      </ul>
+                      <h3>PC GOLD 1200€</h3>
+
                     </div>
                     <i class="icon ion-md-arrow-forward"></i>
                     <i class="icon ion-md-arrow-down"></i>
                   </a>
                   <div class="answer">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                    <p><strong>Caja:</strong> XIGMATEL LUX</p>
+                    <p> <strong> Fuente de alimentación:</strong> XIGMATEK MINOTAUR 850W 80+ Bronze </p>
+                    <p><strong>Procesador:</strong> AMD Ryzen7 5700X</p>
+                    <p> <strong>Placa base:</strong>Gigabyte GA-B550-GAMING X (AM4) (D)</p>
+                    <p> <strong>Disco Duro:</strong>Teamgroup 1TB MP33 PRO PCIe M.2 PCIe 3.0 x4 NVME</p>
+                    <p> <strong>Memoria RAM:</strong> XPG SPECTRIX DDR4 16GB (2X8GB) 3200MHZ D50 RGB</p>
+                    <p><strong>Tarjeta gráfica</strong>Palit GeForce® RTX 4060 Ti 8GB StormX OC</p>
+                    <p> <strong>Sistema Operativo:</strong> Windows 10 PRO</p>
                   </div>
                   <hr>
               </div>
                 <div class="accordion-item" id="question4">
                   <a class="accordion-link" href="#question4">
                     <div>
-                      <h3>BACKEND DEVELOPMENT</h3>
-                      <ul>
-                        <li>#Figma</li>
-                        <li>#Sketch</li>
-                        <li>#Adobe</li>
-                        <li>#Invision</li>
-                        <li>#Protopie</li>
-                      </ul>
+                      <h3>PC MASTER RAZE 2000€</h3>
                     </div>
                     <i class="icon ion-md-arrow-forward"></i>
                     <i class="icon ion-md-arrow-down"></i>
                   </a>
                   <div class="answer">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                    <p><strong>Caja:</strong>Nfortec Draco Negra</p>
+                    <p> <strong> Fuente de alimentación:</strong> 850W 80+ Bronze ATX 3.0 Compatible con tarjeta gráfica PCIe Gen 5.0</p>
+                    <p><strong>Procesador:</strong> Intel Core I7-12700F 2.1Ghz 8+4 Cores 16 hilos</p>
+                    <p><strong>Disipador:</strong> Refrigeración líquida Tempest Liquid Cooler 240 RGB / Mars Gaming ML240 Dual ARGB KIT</p>
+                    <p> <strong>Placa base:</strong> Chipset Z790 con Wifi 6 y Bluetooth  - Marca y modelo según disponibilidad</p>
+                    <p> <strong>Disco Duro:</strong> Kingston NV2 1TB SSD PCIe 4.0 NVMe Gen 4x4 </p>
+                    <p> <strong>Memoria RAM:</strong> 32GB RAM DDR4 3200 2X16 CL16</p>
+                    <p><strong>Tarjeta gráfica</strong>Nvidia GeForce RTX 4070 Ti 12GB GDDR6 DLSS3 </p>
+                    <p> <strong>Sistema Operativo:</strong> Windows 10 PRO</p>
                   </div>
                   <hr>
               </div>
-             </div>
+            </div>
             </div>
           </section>
-       
 
-        <!-- fotos simples -->
         <section id="fotos">
-                    <div class="titulo">FOTOS<div>
+                    <div class="titulo">NUESTROS PRODUCTOS<div>
             <div class="grid-4">
-                <div class="col-4"> <!--Ya tenia otro container-->
+                <div class="col-4">
                     <div class="container2">
-                        <img class="image" src="https://fastly.picsum.photos/id/874/400/300.jpg?hmac=9D0Mj4lnVxHfWx6L5Ikk8nEMCOhgJ1w9TGGuGMWTB8I" alt="">
-                        <div class="overlay">mas pesao que un collá melone</div>
+                        <img class="image" src="./img/placa-base.png" alt="">
+                        <div class="overlay">PLACAS BASE</div>
                     </div> 
                 </div>
                 <div class="col-4">
                     <div class="container2">
-                        <img class="image" src="https://fastly.picsum.photos/id/74/400/300.jpg?hmac=zzW2SeqM56tITdn6bJYOTpIfQX-4JOzIexT0jG7ISAw" alt="">
-                        <div class="overlay">mas pesao que un collá melone</div>
+                        <img class="image" src="./img/torre-de-la-cpu.png" alt="">
+                        <div class="overlay">Procesadores</div>
+                    </div>
+                </div>
+                    <div class="col-4">
+                      <div class="container2">
+                        <img class="image" src="./img/dispositivo-de-disco-duro.png" alt="">
+                        <div class="overlay">Discos duros</div>
+                      </div>
+                    </div>
+                <div class="col-4">
+                    <div class="container2">
+                        <img  class="image" src="./img/tarjeta-grafica.png" alt="">
+                        <div class="overlay">Tarjetas gráficas</div>
                     </div>
                 </div>
                 <div class="col-4">
-                    <img class="image" src="https://fastly.picsum.photos/id/1057/400/300.jpg?hmac=N-wMcUd7SB5AvmXWdEUYotEexGMXeZQ5avfEtBJ1PTg" alt="">
-                    <div class="overlay">mas pesao que un collá melone</div>
+                    <div class="container2">
+                        <img class="image" src="./img/memoria-ram.png" alt="">
+                        <div class="overlay">Memorias RAM</div>
+                    </div>
                 </div>
                 <div class="col-4">
-                    <img  class="image" src="https://fastly.picsum.photos/id/556/400/300.jpg?hmac=ZlEyR2QQnAcD-Isq4F8MnChs-MMtBTr8ob4rUTZiCVg" alt="">
-                    <div class="overlay">mas pesao que un collá melone</div>
+                  <div class="container2">
+                        <img class="image" src="./img/liquida.png" alt="">
+                        <div class="overlay">Refrigeraciones liquidas</div>
+                  </div>
                 </div>
                 <div class="col-4">
-                    <img class="image" src="https://fastly.picsum.photos/id/993/400/300.jpg?hmac=dj1ST0E3quk3DLjXO0oGH6bsZUpPsOWks7dysQ2DuK0" alt="">
-                    <div class="overlay">mas pesao que un collá melone</div>
-                </div>
-                <div class="col-4">
-                    <img class="image" src="https://fastly.picsum.photos/id/847/400/300.jpg?hmac=QHJ9qUxBim7ZywFEmqai8VtRz3xIL4pXkVwVaPvR1UQ" alt="">
-                    <div class="overlay">mas pesao que un collá melone</div>
-                </div>
-                <div class="col-4">
-                    <img class="image" src="https://fastly.picsum.photos/id/610/400/300.jpg?hmac=nxlhZq5YX-Q-j-3o5ETtNXiu5YkHsyfGV33TV1mKdYk" alt="">
-                    <div class="overlay">mas pesao que un collá melone</div>
+                  <div class="container2">
+                        <img class="image" src="./img/tarjeta-de-sonido.png" alt="">
+                        <div class="overlay">Tarjetas de sonido</div>
+                  </div>
                 </div>
                 <div  class="col-4">
-                    <img class="image" src="https://fastly.picsum.photos/id/536/400/300.jpg?hmac=_nNf8BMnZZRdZjr62hkfisqO21CxTQLRnINy050B7CQ" alt="">
-                    <div class="overlay">mas pesao que un collá melone</div>
+                  <div class="container2">
+                        <img class="image" src="./img/caja-pc.png" alt="">
+                        <div class="overlay">Cajas/Torres</div>
+                  </div>
+                </div>
+                <div  class="col-4">
+                  <div class="container2">
+                        <img class="image" src="./img/ventilador.png" alt="">
+                        <div class="overlay">Ventiladores Suplementarios</div>
+                  </div>
+                </div>
+                <div  class="col-4">
+                  <div class="container2">
+                        <img class="image" src="./img/fuente-de-alimentacion.png" alt="">
+                        <div class="overlay">Fuentes de alimentación</div>
+                  </div>
+                </div>
+                <div  class="col-4">
+                  <div class="container2">
+                        <img class="image" src="./img/disipador-de-calor.png" alt="">
+                        <div class="overlay">Disipadores CPU</div>
+                  </div>
+                </div>
+                <div  class="col-4">
+                  <div class="container2">
+                        <img class="image" src="./img/ssd.png" alt="">
+                        <div class="overlay">ssd</div>
+                  </div>
+                </div>
 
             <div>
                 
@@ -203,20 +270,20 @@
             </div>
                 <div class="grid-4">
                     <div class="col-4">
-                            <img src="./img/HEROSECT.jpg" alt="">
-                            <h3>herosect provizioná</h3>
+                            <img src="./img/CAJA-BRONZE.jpg" alt="">
+                            <h3>PC BRONZE</h3>
                     </div>
                     <div class="col-4">
-                            <img src="./img/logo.png" alt="">
-                            <h3>loguito robao</h3>
+                            <img src="./img/CAJA-SILVER.jpg" alt="">
+                            <h3>PC SILVER</h3>
                     </div>
                     <div class="col-4">
-                            <img src="./img/tai-bui-Q-xGz9NOVOE-unsplash.jpg" alt="">
-                            <h3>esta esta wapa en vd</h3>
+                            <img src="./img/CAJA-GOLD.jpg" alt="">
+                            <h3>PC GOLD</h3>
                     </div>
                     <div class="col-4">
-                            <img src="./img/wave-haikei.png" alt="">
-                            <h3>me parece simple pero elegante</h3>
+                            <img src="./img/caja-master.jpg" alt="">
+                            <h3>PC MASTER RAZE</h3>
                     </div>
                 </div>
 
@@ -224,16 +291,16 @@
 
         </section>
 
-        <section id="localizacion">
-            <div class="titulo">
-                Localización
-            </div>
-                <p class="texto">Nos encontramos en Cártama Estación en la calle tal tal tal</p>
 
         </section>
         <footer>
-            autor: migue
-        </footer>
+          <div class="social-buttons">
+              <a href="https://facebook.com" target="_blank">Facebook</a>
+              <a href="https://twitter.com" target="_blank">Twitter</a>
+              <a href="https://instagram.com" target="_blank">Instagram</a>
+          </div>
+          <p>&copy; 2023 PC TECH</p>
+      </footer>
     </div>
 </body>
 </html>

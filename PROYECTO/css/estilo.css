@@ -1,6 +1,6 @@
 /**********************************************/
 /*      AUTOR: Miguel Angel Postigo Bernal ****/
-/***          version: 1.0                  ***/
+/***          version: 1.1                  ***/
 /* coment: proyecto de página web fin de curso*/
 /**********************************************/
 
@@ -36,11 +36,13 @@ body {background-color: black;
 
 .titulo{ font-family: titulo;
         text-align: center;
+        padding: 20px;
 }
 
 
 .texto{ font-family: texto;
-
+        margin: 20px;
+        line-height: 1.5;
 }
 
 html {scroll-behavior: smooth;}
@@ -97,11 +99,11 @@ nav {   position: sticky;
 /***** hero section **********/
 
 #hero {background-image: url(../img/tai-bui-Q-xGz9NOVOE-unsplash.jpg);
-        height: 80vh;/*Forzar el alto de la hero para ver la foto*/
+        height: 80vh;
         width: 100%; 
         display: block;
-        background-size: cover; /*Estira la foto para encajar*/
-        background-position:30% ; /**donde esta el punto de interés**/
+        background-size: cover;
+        background-position:30% ;
         font-family: titulo;
         color: rgb(255, 255, 255);
         font-size:1.5em ;
@@ -133,15 +135,23 @@ nav {   position: sticky;
         border-bottom: 2px solid white;
 }
 
-#video-placa-base{width: 100%; /*Para que la foto no se salga, indicar el ancho siempre*/
-        float: left; /*FOTO pegada a la izquierda*/
-        margin:20px 15px 10px 0 ; /*Para que corra aire alrededor de la foto*/
+#video-placa-base{width: 100%;
+        float: left;
+        margin:20px 15px 10px 0 ; 
 }
 
+.h2{text-align: center;
+        padding: 30px 10px 30px 10px;
+
+}
+
+.caja{  background-color: black;
+        
+}
 
 /****************SECTION EJEMPLO-GRID-2**********+*/
 
-.grid-2 {display: grid; /* el contenedor va a sufrir ua división en columna*/
+.grid-2 {display: grid;
         grid-template-columns: 50% 50%;
 } 
 
@@ -154,50 +164,50 @@ nav {   position: sticky;
 *,
 *::before,
 *::after{
-  margin:0;
-  padding: 0;
-  box-sizing: inherit;
+margin:0;
+padding: 0;
+box-sizing: inherit;
 }
 
 
 
 /*Section used for centering process*/
 #PC_PRINCIPALES {
-  width: 100%;
-  height: 100vh;
-  background-color: #000000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+width: 100%;
+height: 120vh;
+background-color: #000000;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .container{
-  width: 100%;
-  max-width: 80rem;
-  margin: 0 auto;
-  padding: 0 1.5rem;
+        width: 70%;
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 0 1.5rem;
 }
 
 .accordion-item{
-  background-color: #000000;
-  border-radius: .4rem;
+background-color: #000000;
+border-radius: .4rem;
 }
 
 
 .accordion-item hr{
-  border: 1px solid rgba(255, 255, 255, 0.5);
+border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .accordion-link{
-  font-size: 1.6rem;
-  color: rgba(255,255,255,.8);
-  text-decoration: none;
-  background-color: #000000;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 0;
+font-size: 1.6rem;
+color: rgba(255,255,255,.8);
+text-decoration: none;
+background-color: #000000;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1rem 0;
 }
 
 .accordion-link:hover {
@@ -208,8 +218,8 @@ nav {   position: sticky;
 }
 
 .accordion-link h3{
-  font-weight:500;
-  font-size: 20px;
+        font-weight:500;
+        font-size: 20px;
 }
 
 .accordion-link h3:hover {
@@ -218,60 +228,61 @@ nav {   position: sticky;
 
 
 .accordion-link i{
-  color: #e7d5ff;
-  padding: .5rem;
-  
+color: #e7d5ff;
+padding: .5rem;
+
 }
 
 .accordion-link ul{
-  display:flex;
-  align-items: flex-end;
-  list-style-type: none;
-  margin-left: 25px;
+display:flex;
+align-items: flex-end;
+list-style-type: none;
+margin-left: 25px;
 }
 
 .accordion-link li{
-  font-size: 10px;
-  color: rgba(255, 255, 255, 0.4);
-  padding: 0 0 1px 5px;
+font-size: 10px;
+color: rgba(255, 255, 255, 0.4);
+padding: 0 0 1px 5px;
 }
 
 .accordion-link div{
-  display: flex;
+display: flex;
 }
 
 .accordion-link .ion-md-arrow-down{
-  display: none;
+display: none;
 }
 
 .answer{
-  max-height: 0;
-  overflow: hidden;
-  position: relative;
-  background-color: #000;
-  transition: max-height 650ms;
+max-height: 0;
+overflow: hidden;
+position: relative;
+background-color: #000;
+transition: max-height 650ms;
 }
 
 
 
 .answer p{
-  color: #fff;
-  font-size: 15px;
-  padding: 2rem;
-  
+color: #fff;
+font-size: 15px;
+padding: 2rem;
+
 }
 
 .accordion-item:target .answer{
-  max-height: 20rem;
+max-height: 200rem;
 }
 
 .accordion-item:target .accordion-link .ion-md-arrow-forward{
-  display: none
+display: none
 }
 
 .accordion-item:target .accordion-link .ion-md-arrow-down{
-  display: block;
+display: block;
 }
+
 
 
 /********+SECCION DE FOTOS********************/
@@ -285,17 +296,17 @@ nav {   position: sticky;
         position: relative;
         width: 100%;
         max-width: 300px;
-      }
-      
+}
+
       /* Make the image to responsive */
-      .image {
+.image {
         display: block;
         width: 100%;
         height: auto;
-      }
-      
+}
+
       /* The overlay effect - lays on top of the container and over the image */
-      .overlay {
+.overlay {
         position: absolute;
         bottom: 0;
         background: rgb(0, 0, 0);
@@ -308,13 +319,12 @@ nav {   position: sticky;
         font-size: 0.3em;
         padding: 0px;
         text-align: center;
-      }
-      
-      /* When you mouse over the container, fade in the overlay title */
-      .container2:hover .overlay {
-        opacity: 1;
-      }
+}
 
+      /* When you mouse over the container, fade in the overlay title */
+.container2:hover .overlay {
+        opacity: 1;
+}
 
 
 
@@ -329,43 +339,43 @@ nav {   position: sticky;
 .col-4 {padding: 8%;
         border: 1px solid burlywood}
 
-#boton1 {margin-bottom: 5%;
-        background-color: #8a2be2;
-        border: 2px solid black;
-        color: black;
-        padding: 10px;
-        font-weight: bold;
-        transition: 0.4s;
-        }
-        
-#boton1:hover{background-color: #690dbe;
-        border: 2px solid whitesmoke;
-        color: white;
-        padding: 10px;
-        font-size: 0.5em;
-        transition: 0.4s;
-        }
-
-
-#boton2 {margin-bottom: 5%;
-        background-color: #8a2be2;
-        border: 2px solid black;
-        color: black;
-        padding: 10px;
-        font-weight: bold;
-        transition: 0.4s;
-}
-
-#boton2:hover{background-color: #690dbe;
-                border: 2px solid whitesmoke;
-                color: white;
-                padding: 10px;
-                font-size: 0.5em;
-                transition: 0.4s;
-}
-
 #gallery h3 {font-family: titulo;
                 font-size: 20px;}
+
+
+/***************FOOTER*************************/
+footer {
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        bottom: 0;
+        width: 100%;
+}
+
+.social-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+}
+
+.social-buttons a {
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: white;
+        transition: background-color 0.3s ease;
+}
+
+.social-buttons a:hover {
+        background-color: #777;
+}
+
+
+
+
 
 /********** responsividad *********/
 
@@ -409,4 +419,8 @@ float: none;
 display: block;
 text-align: left;
 }
+}
+
+@media screen and (max-width: 600px) {
+        .container {position: relative;}
 }

@@ -37,6 +37,7 @@ body {background-color: black;
 .titulo{ font-family: titulo;
         text-align: center;
         padding: 20px;
+        font-size: 30px;
 }
 
 
@@ -117,7 +118,7 @@ nav {   position: sticky;
 
 #Parrafo{ font-family:PCTECH;
         position: absolute;
-        bottom: 0%;
+        bottom: 13%;
         left: 25%;
         padding: 10px;
         border: solid 7px white;
@@ -213,7 +214,7 @@ box-sizing: inherit;
 /*Section used for centering process*/
 #PC_PRINCIPALES {
 width: 100%;
-height: 200vh;
+height: 160vh;
 background-color: #000000;
 display: flex;
 align-items: center;
@@ -387,7 +388,7 @@ footer {
         background-color: black;
         color: #fff;
         text-align: center;
-        padding: 20px;
+        padding-top: 10px;
         bottom: 0;
         width: 100%;
 }
@@ -395,14 +396,14 @@ footer {
 .social-buttons {
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 5px;
         margin-top: 10px;
 }
 
 .social-buttons a {
         color: black;
         text-decoration: none;
-        padding: 10px;
+        padding: 10px 5px 10px 5px;
         border-radius: 5px;
         background-color: white;
         transition: background-color 0.3s ease;
